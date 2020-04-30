@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.head {
+    background-color: #23424A;
+}
+
+.head--container {
+    padding: 9.25em 0 9.25em 7.625em;
+    max-width: 750px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head--title {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 56px;
+}
+
+.head--text {
+    font-size: 1.3125rem;
+    line-height: 28px;
+    padding: 1em 0;
+    margin-bottom: 2em;
+}
+
+.head--btn {
+    background-color: #38CFD9;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.3125rem;
+    padding: 1em 3em;
+    text-transform: uppercase;
+    color: #072A2D;
+    letter-spacing: 0.05em;
+}
