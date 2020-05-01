@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.3125rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #23424A;
+    color: #fff;
+}
+
+.hero__container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero__text {
+    width: 60%;
+}
+
+.hero__tex {
+    margin-bottom: 3em;
+}
+
+.hero__btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #072A2D;
+    font-weight: bold;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: 100px;
+    letter-spacing: 0.05em;
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+    opacity: .75;
+}
