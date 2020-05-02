@@ -25,8 +25,9 @@ h2 {
     font-weight: bold;
 }
 
-.section-title {
-    color: #136C72;
+header {
+    background: #136c72;
+    padding: .5em 0;
 }
 
 .btn {
@@ -62,14 +63,46 @@ h2 {
     width: 100%;
 }
 
+.col+.col {
+    margin-left: 30px;
+}
+
 .hero {
     padding: 100px 0;
     background-color: #23424A;
     color: #fff;
 }
 
-.col+.col {
-    margin-left: 30px;
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 1em;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link--button {
+    background: #fff;
+    color: #136c72;
+    padding: .25em 1em;
+    border-radius: 10em;
+}
+
+.nav__link:hover {
+    opacity: .75;
+}
+
+.section-title {
+    color: #136C72;
 }
 
 .hero__text,
