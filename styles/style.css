@@ -73,6 +73,17 @@ header {
     color: #fff;
 }
 
+.logo {
+    margin-right: 1em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
 .nav__list {
     margin: 0;
     padding: 0;
@@ -80,8 +91,12 @@ header {
     display: flex;
 }
 
-.nav__item {
-    margin-right: 1em;
+.nav__list--primary {
+    margin: 0 auto;
+}
+
+.nav__item+.nav__item {
+    margin-left: 1em;
 }
 
 .nav__link {
